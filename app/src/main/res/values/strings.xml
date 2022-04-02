@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PersegiPanjang</string>
+    <string name="txt_title">Volume Persegi Panjang</string>
+    <string name="txt_panjang">Panjang</string>
+    <string name="txt_lebar">Lebar</string>
+    <string name="txt_tinggi">Tinggi</string>
+    <string name="txt_hitung_volume">Hitung Volume</string>
+    <string name="error_message_panjang">Panjang Wajib Diisi</string>
+    <string name="error_message_lebar">Lebar Wajib Diisi</string>
+    <string name="error_messaage_tinggi">Tinggi Wajib Diisi</string>
+</resources>

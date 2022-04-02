@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/txt_title"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/input_panjang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="20dp"
+        android:hint="@string/txt_panjang"
+        android:inputType="number" />
+
+
+    <EditText
+        android:id="@+id/input_lebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/input_panjang"
+        android:layout_marginTop="20dp"
+        android:hint="@string/txt_lebar"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/input_tinggi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/input_lebar"
+        android:layout_marginTop="20dp"
+        android:imeOptions="actionDone"
+        android:hint="@string/txt_tinggi"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btn_volume"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/input_tinggi"
+        android:layout_marginTop="20dp"
+        android:text="@string/txt_hitung_volume" />
+
+
+    <TextView
+        android:id="@+id/hasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_volume"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
